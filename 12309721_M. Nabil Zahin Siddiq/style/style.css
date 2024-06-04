@@ -1,0 +1,235 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Table Style Start */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+td a {
+    margin: 0 10px;
+}
+td .link-hapus {
+    background-color: red;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+}
+td .link-detail {
+    background-color: orange;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+}
+td .link-edit {
+    background-color: green;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+}
+/* Table Style End */
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+form .form-group {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+form .form-group .form-group-child {
+    border: 1px solid black;
+    padding: 20px 25px;
+}
+
+form .form-group .form-group-child label {
+    font-size: 1.3rem;
+}
+
+form .form-group .form-group-child input {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+form .button-group {
+    display: flex;
+    gap: 15px;
+}
+
+form .button-group a button {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+form .button-group a .btn-submit {
+    background-color: green;
+    font-size: 1rem;
+}
+
+form .button-group a .btn-cetak {
+    background-color: yellow;
+    font-size: 1rem;
+}
+
+form .button-group a .btn-hapus {
+    background-color: red;
+    font-size: 1rem;
+}
+
+/* Detail */
+
+form .form-group-detail {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0px;
+}
+
+form .form-group-detail .form-group-detail-child {
+    border: 1px solid black;
+    padding: 20px 25px;
+}
+
+form .form-group-detail .form-group-detail-child label {
+    font-size: 1.3rem;
+}
+
+form .form-group-detail .form-group-detail-child input {
+    padding: 10px;
+}
+
+.button-group-detail {
+    display: flex;
+    gap: 15px;
+}
+
+.button-group-detail a button {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.button-group-detail a .btn-edit {
+    background-color: green;
+    font-size: 1rem;
+}
+
+.button-group-detail a .btn-kembali-detail {
+    background-color: red;
+    font-size: 1rem;
+}
+
+
+
+.button-group-print {
+    display: flex;
+    gap: 15px;
+}
+
+.button-group-print a button {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.button-group-print a .btn-cetak {
+    background-color: green;
+    font-size: 1rem;
+}
+
+.button-group-print a .btn-kembali-print {
+    background-color: red;
+    font-size: 1rem;
+}
+
+
+
+form .form-group-edit {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0px;
+}
+
+form .form-group-edit .form-group-edit-child {
+    border: 1px solid black;
+    padding: 20px 25px;
+}
+
+form .form-group-edit .form-group-edit-child label {
+    font-size: 1.3rem;
+}
+
+form .form-group-edit .form-group-edit-child input {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+form .button-group-edit {
+    display: flex;
+    gap: 15px;
+}
+
+form .button-group-edit a button {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+form .button-group-edit a .btn-edit {
+    background-color: green;
+    font-size: 1rem;
+}
+
+form .button-group-edit a .btn-kembali-edit {
+    background-color: red;
+    font-size: 1rem;
+}
+
+.warning-message-red {
+    height: 4rem;
+    width: 20rem;
+    background-color: rgba(234, 18, 18, 0.676);
+    border: 5px solid red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin: 2rem 0 0 0;
+}
+
+.warning-message-green {
+    height: 4rem;
+    width: 20rem;
+    background-color: rgba(2, 192, 2, 0.72);
+    border: 5px solid green;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin: 1rem 0 0 0;
+}
